@@ -12,8 +12,22 @@ Repository: [Markdown Guide](https://www.markdownguide.org)
 ## 2. Backend
 Backend is implemented in micro-services architecture. Here are its various components:
 1. Config Server
-   Link to be given here..
-3. Service Registry
-4. Actuator Admin (Spring Boot Admin) aka SBA
-5. API Gateway
-6. Auth Service
+   
+   Repository: [Markdown Guide](https://www.markdownguide.org)
+   
+3. Service Registr
+
+   Repository: [Markdown Guide](https://www.markdownguide.org)
+
+5. Actuator Admin (Spring Boot Admin) aka SBA
+
+   Repository: [Markdown Guide](https://www.markdownguide.org)
+
+7. API Gateway
+
+   Repository: [Markdown Guide](https://www.markdownguide.org)
+
+9. Auth Service
+
+    Repository: [Markdown Guide](https://www.markdownguide.org)
+
