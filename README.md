@@ -12,8 +12,10 @@ Repository: [Markdown Guide](https://www.markdownguide.org)
 ## 2. Backend
 Backend is implemented in micro-services architecture. Here are its various components:
 1. Config Server
-   
+
    Repository: [Markdown Guide](https://www.markdownguide.org)
+
+   Config Keys repository: [Markdown Guide](https://www.markdownguide.org)
    
 3. Service Registr
 
