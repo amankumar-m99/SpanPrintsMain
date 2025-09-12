@@ -33,3 +33,13 @@ Backend is implemented in micro-services architecture. Here are its various comp
 
     Repository: [https://github.com/amankumar-m99/SpanPrintsAuthService](https://github.com/amankumar-m99/SpanPrintsAuthService)
 
+## Execution Order of microservices
+Start below services one by one:
+   1. Config Server
+   2. Service Registry
+   3. Actuator Admin
+   4. API Geteway
+   5. Auth Service
+
+## Important Guildelines
+1. Expose only the API Gateway to public network and keep all the other services in private network
