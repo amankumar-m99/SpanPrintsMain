@@ -1,19 +1,19 @@
 @echo off
 
 REM === Start Config Server ===
-start "Config Server" 01_ConfigServer/ConfigServer.exe
+start "Config Server" 01_ConfigServer/ConfigServer.exe > 01_ConfigServer\config-server.log 2>&1
 call :wait_for_port localhost 8888
 
 REM === Start Eureka ===
-start "Eureka Server" 02_ServiceRegistry/ServiceRegistry.exe
+start "Eureka Server" 02_ServiceRegistry/ServiceRegistry.exe > 02_ServiceRegistry/ServiceRegistry.log 2>&1
 call :wait_for_port localhost 8761
 
 REM === Start Actuator Admin ===
-start "Actuator Admin" 03_ActuatorAdmin/ActuatorAdmin.exe
+start "Actuator Admin" 03_ActuatorAdmin/ActuatorAdmin.exe > 03_ActuatorAdmin/ActuatorAdmin.log 2>&1
 call :wait_for_port localhost 9999
 
 REM === Start API Gateway ===
-start "API Gateway" 04_ApiGateway/ApiGateway.exe
+start "API Gateway" 04_ApiGateway/ApiGateway.exe > 04_ApiGateway/ApiGateway.log 2>&1
 call :wait_for_port localhost 8080
 
 echo All services started.
